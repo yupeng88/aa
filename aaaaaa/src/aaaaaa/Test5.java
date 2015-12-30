@@ -13,10 +13,10 @@ public class Test5 {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
+        list.add("11");
+        list.add("22");
+        list.add("33");
+        list.add("44");
         Iterator<String> i = list.iterator();
         while (i.hasNext()) {
             System.out.println(i.next());
